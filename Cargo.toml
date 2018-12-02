@@ -1,0 +1,9 @@
+[package]
+name = "localhoster"
+version = "0.1.0"
+authors = ["syn_n"]
+
+[dependencies]
+iron = "0.6.0"
+router = "0.6"
+urlencoded = "0.6"
