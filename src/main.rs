@@ -18,6 +18,13 @@ fn main() {
     router.get("/quit", quit, "quit");
 
     println!("Serving on http://127.0.0.1:31764 ...");
+
+    Command::new("cmd")
+        .args(&["/C", "EXPLORER http://127.0.0.1:31764"]) // EXPLORER opens default browser on Windows.
+        .spawn()
+        .expect("failed to open default browser with localhost:31764");
+
+    // and then
     Iron::new(router).http("127.0.0.1:31764").unwrap();
 }
 
