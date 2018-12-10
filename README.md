@@ -1,29 +1,29 @@
 # What is this? #
 
-    Windows でブラウザをUIにしてプログラムを実行できるようにするのが目的
+Windows でブラウザをUIにしてプログラムを実行できるようにするのが目的
 
-    EXE が localhost(127.0.0.1:(port)) を起動し
+EXE が localhost(127.0.0.1:(port)) を起動し
 
-    HTML から GET/POST などすると
+HTML から GET/POST などすると
 
-    裏でプログラムが起動して仕事をする
+裏でプログラムが起動して仕事をする
 
 
 
 ## 開発環境 ##
 
-    Windows 10 Home
+Windows 10 Home
 
-    Rust 1.30.1
+Rust 1.30.1
 
 
 
 ## テスト案内文 ##
 
-    ```cargo build --release```
-    として実行ファイル(localhoster.exe)を作成し、テストしてもらいたいユーザに共有。
+```cargo build --release```
+として実行ファイル(localhoster.exe)を作成し、テストしてもらいたいユーザに共有。
 
-    以下は作者がテストユーザに送信した案内文の一部。
+以下は作者がテストユーザに送信した案内文の一部。
 
 
 
